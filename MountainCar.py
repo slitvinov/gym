@@ -1,5 +1,4 @@
 import gym
-import random
 env = gym.make("MountainCar-v0")
 obs = env.reset()
 R = 0

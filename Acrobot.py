@@ -1,5 +1,4 @@
 import gym
-import random
 env = gym.make("Acrobot-v1")
 obs = env.reset()
 R = 0

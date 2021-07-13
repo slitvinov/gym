@@ -14,3 +14,15 @@ $ while python Acrobot.py; do :; done
 -75.0
   C-c
 </PRE>
+
+<PRE>
+$ while python MountainCar.py ; do :; done
+-121.0
+-114.0
+-118.0
+-115.0
+-121.0
+-113.0
+-114.0
+  C-c
+</PRE>

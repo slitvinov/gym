@@ -1,5 +1,4 @@
 import gym
-import random
 env = gym.make("CartPole-v1")
 obs = env.reset()
 R = 0
