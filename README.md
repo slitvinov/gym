@@ -27,4 +27,6 @@ $ while python MountainCar.py ; do :; done
   C-c
 </PRE>
 
-![Acrobot](video/Acrobot.mp4)
+<p align="center"><img src="img/Acrobot.gif"/></p>
+<p align="center"><img src="img/CartPole.gif"/></p>
+<p align="center"><img src="img/MountainCar.gif"/></p>
