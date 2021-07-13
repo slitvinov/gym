@@ -26,3 +26,8 @@ $ while python MountainCar.py ; do :; done
 -114.0
   C-c
 </PRE>
+
+<video controls>
+  <source src="video/Acrobot.mp4" type="video/mp4">
+  Your browser does not support the video tag
+</video> 
