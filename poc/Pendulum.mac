@@ -1,0 +1,50 @@
+/*
+g: 10.0;
+m: 1.0;
+l: 1.0;
+dt: 0.05;
+*/
+
+m: 1;
+l: 1;
+
+lin(e):=expand(taylor(e, th, 0, 1), 0, 0);
+
+newthdot: thdot + (-3 * g / (2 * l) * sin(th + %pi) + 3. / (m * l ** 2) * u) * dt;
+newthdot: lin(newthdot);
+newth: th + newthdot * dt;
+
+A: matrix(ratcoef([newth, newthdot], th), ratcoef([newth, newthdot], thdot));
+A: transpose(A);
+
+B: ratcoef([newth, newthdot], u);
+B: transpose(B);
+
+/* [g, l, x] = dlqr(A, B, Q, [1e32])
+A =
+
+   1.037500   0.050000
+   0.750000   1.000000
+
+B =
+
+   0.0075000
+   0.1500000
+
+Q =
+
+   1   0
+   0   0
+
+R =
+
+   0   0
+   0   0
+
+octave> [g, l, x] = dlqr(A, B, Q, [1e32])
+g =
+
+   9.1210   2.1380
+
+
+*/
