@@ -5,7 +5,7 @@ obs = env.reset()
 R = 0
 while True:
     util.render(env)
-    action = 0 if obs[1] < 0 else 2
+    action = 2 if obs[1] > 0 else 0
     obs, reward, done, info = env.step(action)
     R += reward
     if done:
