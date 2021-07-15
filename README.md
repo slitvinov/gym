@@ -30,3 +30,4 @@ $ while python MountainCar.py ; do :; done
 <p align="center"><img src="img/Acrobot.gif"/></p>
 <p align="center"><img src="img/CartPole.gif"/></p>
 <p align="center"><img src="img/MountainCar.gif"/></p>
+<p align="center"><img src="img/Pendulum.gif"/></p>
