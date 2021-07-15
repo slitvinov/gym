@@ -31,3 +31,8 @@ $ while python MountainCar.py ; do :; done
 <p align="center"><img src="img/CartPole.gif"/></p>
 <p align="center"><img src="img/MountainCar.gif"/></p>
 <p align="center"><img src="img/Pendulum.gif"/></p>
+
+<H2>Install</H2>
+<PRE>
+$ python -m pip install gym box2d-py
+</PRE>
