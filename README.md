@@ -1,6 +1,6 @@
 <H2>Heuristic solutions for classic control problems in OpenAI Gym</H2>
 
-<a href="/slitvinov/gym/blob/main/Acrobot.py">Acrobot-v1</a>: Swing up a two-link robot<br>
+<a href="Acrobot.py">Acrobot-v1</a>: Swing up a two-link robot<br>
 <a href="/slitvinov/gym/blob/main/CartPole.py">CartPole-v1</a>: Balance a pole on a cart<br>
 <a href="/slitvinov/gym/blob/main/MountainCar.py">MountainCar-v0</a>: Drive up a big hill<br>
 <a href="/slitvinov/gym/blob/main/Pendulum.py">Pendulum-v0</a>: Swing up a pendulum<br>
@@ -44,4 +44,5 @@ $ python -m pip install gym
 </PRE>
 
 <H2>References</H2>
-https://gym.openai.com/envs/#classic_control
+<a href="https://gym.openai.com/envs/#classic_control">OpenAI gym documentation</a><br>
+<a href="https://github.com/openai/gym/wiki/Leaderboard">Leaderboard</a><br>
