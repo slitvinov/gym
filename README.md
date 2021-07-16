@@ -1,4 +1,4 @@
-<H2>Heuristic solutions for classic control problems</H2>
+<H2>Heuristic solutions for classic control problems in OpenAI Gym</H2>
 
 [Acrobot-v1](Acrobot.py): Swing up a two-link robot<BR/>
 [CartPole-v1](CartPole.py): Balance a pole on a cart<BR/>
@@ -42,3 +42,6 @@ $ while python MountainCar.py ; do :; done
 <PRE>
 $ python -m pip install gym
 </PRE>
+
+<H2>References</H2>
+- https://gym.openai.com/envs/#classic_control
