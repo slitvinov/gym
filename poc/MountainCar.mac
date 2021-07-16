@@ -1,0 +1,10 @@
+goal_position: 0.5;
+force: 0.001;
+gravity: 0.0025;
+
+/* self.np_random.uniform(low=-0.6, high=-0.4) */
+
+position: p0;
+velocity: v0;
+velocity: velocity + (action-1)*force + cos(3*position)*(-gravity);
+position: position + velocity;
