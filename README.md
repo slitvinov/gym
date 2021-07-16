@@ -1,4 +1,10 @@
-<H2>"Random guess" gym agents</H2>
+<H2>Heuristic solutions for classic control problems</H2>
+
+[Acrobot-v1](Acrobot.py): Swing up a two-link robot<BR/>
+[CartPole-v1](CartPole.py): Balance a pole on a cart<BR/>
+[MountainCar-v0](MountainCar.py): Drive up a big hill<BR/>
+[Pendulum-v0](Pendulum.py): Swing up a pendulum<BR/>
+[MountainCarContinuous-v0](MountainCarContinuous.py): Drive up a big hill with continuous control<BR/>
 
 <PRE>
 $ while python Acrobot.py; do :; done
@@ -34,5 +40,5 @@ $ while python MountainCar.py ; do :; done
 
 <H2>Install</H2>
 <PRE>
-$ python -m pip install gym box2d-py
+$ python -m pip install gym
 </PRE>
