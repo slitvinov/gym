@@ -22,14 +22,13 @@ $ while python Acrobot.py; do :; done
 </PRE>
 
 <PRE>
-$ while python MountainCar.py ; do :; done
--121.0
--114.0
--118.0
--115.0
--121.0
--113.0
--114.0
+$ while python MountainCarContinuous.py ; do :; done
+89.10000000000002
+89.40000000000003
+89.10000000000002
+89.10000000000002
+89.40000000000003
+89.50000000000003
   C-c
 </PRE>
 
