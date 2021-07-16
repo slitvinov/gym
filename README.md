@@ -1,10 +1,10 @@
 <H2>Heuristic solutions for classic control problems in OpenAI Gym</H2>
 
-[Acrobot-v1](Acrobot.py): Swing up a two-link robot<BR/>
-[CartPole-v1](CartPole.py): Balance a pole on a cart<BR/>
-[MountainCar-v0](MountainCar.py): Drive up a big hill<BR/>
-[Pendulum-v0](Pendulum.py): Swing up a pendulum<BR/>
-[MountainCarContinuous-v0](MountainCarContinuous.py): Drive up a big hill with continuous control<BR/>
+<a href="/slitvinov/gym/blob/main/Acrobot.py">Acrobot-v1</a>: Swing up a two-link robot<br>
+<a href="/slitvinov/gym/blob/main/CartPole.py">CartPole-v1</a>: Balance a pole on a cart<br>
+<a href="/slitvinov/gym/blob/main/MountainCar.py">MountainCar-v0</a>: Drive up a big hill<br>
+<a href="/slitvinov/gym/blob/main/Pendulum.py">Pendulum-v0</a>: Swing up a pendulum<br>
+<a href="/slitvinov/gym/blob/main/MountainCarContinuous.py">MountainCarContinuous-v0</a>: Drive up a big hill with continuous control<br>
 
 <PRE>
 $ while python Acrobot.py; do :; done
@@ -44,4 +44,4 @@ $ python -m pip install gym
 </PRE>
 
 <H2>References</H2>
-- https://gym.openai.com/envs/#classic_control
+https://gym.openai.com/envs/#classic_control
